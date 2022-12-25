@@ -1,0 +1,48 @@
+// body {
+//   background: black !important;
+// }
+
+
+.header {
+  text-align: center;
+  color: yellow;
+  padding: 20px 0;
+}
+
+.seat {
+  width: 50px;
+  height: 50px;
+  color: yellow;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+}
+
+.chair {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+  &.number {
+    background: transparent;
+    color: yellow;
+  }
+
+  &.booked {
+    background: rgb(92, 92, 92);
+  }
+
+  &.available {
+    background: rgb(236, 236, 236);
+  }
+
+  &.selected {
+    background: yellow;
+  }
+}
+
+// className="chair booked"
